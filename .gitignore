@@ -1,0 +1,28 @@
+# --- 編譯產生的檔案 (C++/Verilog) ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# --- Verilog 模擬波形與紀錄 (這些檔案通常很大，不要上傳) ---
+*.vcd
+*.wave
+*.log
+*.vpd
+transcript
+work/
+
+# --- 專案建置目錄 ---
+# 你的作業解壓縮後通常會有 build 資料夾，這裡面都是編譯暫存，不需要上傳
+build/
+sim_build/
+
+# --- 系統垃圾檔 (Windows/Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- 編輯器設定 (選用) ---
+.vscode/
+*.swp
